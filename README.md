@@ -1,27 +1,24 @@
+# Pixel Experience GSI
 
-## Building "generic" LineageOS GSIs ##
+## Build
+To get started with building Pixel Experience GSI, you'll need to get familiar with [Git and Repo](https://source.android.com/source/using-repo.html) as well as [How to build a GSI](https://github.com/phhusson/treble_experimentations/wiki/How-to-build-a-GSI%3F).
+- Create a new working directory for your Pixel Experience build and navigate to it:
+    ```
+    mkdir pixel; cd pixel
+    ```
+- Clone this repo:
+    ```
+    git clone https://github.com/ponces/treble_build_pe -b thirteen
+    ```
+- Finally, start the build script:
+    ```
+    bash treble_build_pe/build.sh
+    ```
 
-Set up your environment by referring to [LineageOS Wiki](https://wiki.lineageos.org/devices/TP1803/build) (mainly "Install the build packages" and "Install the repo command").
-
-Create a new working directory for your LineageOS build and navigate to it:
-
-    mkdir lineage-20-build-gsi; cd lineage-20-build-gsi
-
-Initialize your LineageOS workspace:
-
-    repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs
-
-Clone both this and the patches repos:
-
-    git clone https://github.com/AndyCGYan/lineage_build_unified lineage_build_unified -b lineage-20-light
-    git clone https://github.com/AndyCGYan/lineage_patches_unified lineage_patches_unified -b lineage-20-light
-
-Finally, start the build script - for example, to build for all supported archs:
-
-    bash lineage_build_unified/buildbot_unified.sh treble 64VN 64VS 64GN
-
-Be sure to update the cloned repos from time to time!
-
----
-
-This script is also used to make device-specific and/or personal builds. To do so, understand the script, and try the `device` and `personal` keywords.
+## Credits
+These people have helped this project in some way or another, so they should be the ones who receive all the credit:
+- [Pixel Experience Team](https://download.pixelexperience.org/about)
+- [phhusson](https://github.com/phhusson)
+- [AndyYan](https://github.com/AndyCGYan)
+- [eremitein](https://github.com/eremitein)
+- [kdrag0n](https://github.com/kdrag0n)
