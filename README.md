@@ -1,5 +1,7 @@
 # Pixel Experience Plus GSI
 
+**Huge thanks to Alberto Ponces for being the original maintainer of this project**
+
 ## Build
 To get started with building Pixel Experience Plus GSI, you'll need to get familiar with [Git and Repo](https://source.android.com/source/using-repo.html) as well as [How to build a GSI](https://github.com/phhusson/treble_experimentations/wiki/How-to-build-a-GSI%3F).
 - Create a new working directory for your Pixel Experience Plus build and navigate to it:
@@ -8,7 +10,7 @@ To get started with building Pixel Experience Plus GSI, you'll need to get famil
     ```
 - Clone this repo:
     ```
-    git clone https://github.com/ponces/treble_build_pe -b thirteen-plus
+    git clone https://github.com/pinkserenity/treble_build_pe -b thirteen-plus
     ```
 - Finally, start the build script:
     ```
@@ -32,3 +34,4 @@ These people have helped this project in some way or another, so they should be 
 - [sooti](https://github.com/sooti)
 - [Iceows](https://github.com/Iceows)
 - [ChonDoit](https://github.com/ChonDoit)
+- [ponces](https://github.com/ponces)
